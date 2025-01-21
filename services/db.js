@@ -10,7 +10,7 @@ const dbConfig = {
     encrypt: false,
     trustServerCertificate: true,
   },
-  connectionTimeout: 30000,
+  connectionTimeout: 60000,
 };
 
 const poolPromise = new sql.ConnectionPool(dbConfig)
